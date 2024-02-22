@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kesley408/MeuProjeto/issues"
   },
-  "homepage": "https://github.com/kesley408/MeuProjeto#readme"
+  "homepage": "https://github.com/kesley408/MeuProjeto#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
