@@ -1,8 +1,6 @@
 {
-  "name": "meuprojeto
-  2024",
-  "version": "1.0.0
-  24",
+  "name": "meuprojeto",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
