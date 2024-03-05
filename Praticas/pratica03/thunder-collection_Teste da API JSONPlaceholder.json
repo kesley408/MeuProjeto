@@ -1,0 +1,122 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Teste da API JSONPlaceholder",
+    "dateExported": "2024-03-05T00:19:49.658Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "558e4ca1-18bf-4362-ba5d-37a55b8e5c43",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-05T00:07:55.958Z",
+            "modified": "2024-03-05T00:07:55.958Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2659f580-f8d6-48d8-989b-e7a51848df7c",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/101",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-05T00:08:48.272Z",
+            "modified": "2024-03-05T00:08:48.272Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "27fefc37-1e64-4cb6-914e-736927358c2d",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/add",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-05T00:12:10.069Z",
+            "modified": "2024-03-05T00:12:10.069Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Novo Produto\",\n  \"description\": \"Descrição do produto\",\n  \"price\": \"100,00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffdd43d1-c48f-4a05-afd9-c5890fbb35db",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-05T00:13:12.018Z",
+            "modified": "2024-03-05T00:13:12.018Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Novo Produto1\",\n  \"description\": \"Descrição do produto1\",\n  \"price\": \"101,00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ff49a59b-79f9-48f8-87ce-4731b52f9484",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/101",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-05T00:13:55.250Z",
+            "modified": "2024-03-05T00:13:55.250Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Novo Produto1\",\n  \"description\": \"Descrição do produto1\",\n  \"price\": \"101,00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9edd4449-f32c-4ba6-8b20-ab5816995bf7",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-03-05T00:15:01.815Z",
+            "modified": "2024-03-05T00:15:01.815Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "49ab6642-7d5c-4781-a16e-5069594089ef",
+            "colId": "982f377d-3b46-4292-aa2d-beb3b864c713",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/101",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-03-05T00:15:45.114Z",
+            "modified": "2024-03-05T00:15:45.114Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
