@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 mongoose.connect(process.env.MONGODB_URL);
 
-const routerProdutos = require('./routes/produtos');
+const routerProdutos = require('./routes/router_produtos');
 
 var app = express();
 
@@ -15,6 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-//app.use('/', routerProdutos);
+app.use('/produtos', routerProdutos);
 
 module.exports = app;
+
